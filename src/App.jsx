@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <h1>Render practice is NICE</h1>
+      <h2>{JSON.stringify(data)}</h2>
     </>
   )
 }
